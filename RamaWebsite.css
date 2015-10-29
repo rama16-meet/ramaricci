@@ -1,0 +1,15 @@
+.heading{
+	size = 200%
+}
+body{
+	background-color: #00ffcc;
+	color: orange;
+	text-align: center;
+	font-family: "Times New Roman";
+	
+}
+
+#para {
+	size: 200%
+	color: #00fcfc;
+}
