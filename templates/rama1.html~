@@ -4,14 +4,12 @@
 <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='RamaWebsite.css')}}">
 </head>
 <body>
-<form>
-	<input type="text" name='name' >
-	<input type="submit" name="wanna be friends? insert name here:)">
-</form>
+<h1 id="heading"> This is my website </h><br><br>
 <ul>
 <li><a href="{{url_for('rama')}}">About Me</a></li>
 <li><a href="{{url_for('rama1')}}">Contact Me</a></li>
 <li><a href="{{url_for('rama3')}}">Home</a></li>
 </ul>
+<img class="img" src="{{url_for('static',filename='Ricci.jpg')}}" width="500px" height="550px">
 </body>
 </html>

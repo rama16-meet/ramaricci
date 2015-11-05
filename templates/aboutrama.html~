@@ -1,0 +1,21 @@
+<html>
+<head>
+<title> My Website </title>
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='RamaWebsite.css')}}">
+</head>
+<body>
+<h1 class="heading"> Fun Fats About Me</h1><br><br>
+<p id="para">
+Hi, I'm Rama a ____ year old teenager from ____. I have ____ sisters that are older than me, Raya and Radan. My mom is a ____ and my dad is a ____ teacher. 
+People say that I love animals too much. My favourie animal is a ____, but unfortunately, I can't physically own one :(.
+My favourite series is the ____ ____ series, it's the most dangerous I have. I also really like watching ____ ____ which I find hilarious!:)<br>
+You've already met my sweet little angel, you can see him on the first page, his name is ____.<br>
+My favourite colour is ____.
+</p><br><br> 
+<ul>
+<li><a href="{{url_for('aboutrama')}}">About Me</a></li>
+<li><a href="{{url_for('contactrama')}}">Contact Me</a></li>
+<li><a href="{{url_for('homerama')}}">Home</a></li>
+</ul>
+</body>
+</html>

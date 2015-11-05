@@ -3,13 +3,17 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return render_template("rama.html")
+	return render_template("homerama.html")
 
-@app.route('/Hello/', methods=['POST'])
-@app.route('/Hello/<name>')
-def Hello():
-	a = request.form['name']
-	return render_template('rama3.html', name=a)
+@app.route('/aboutrama')
+def about():
+	return render_template("aboutrama.html")
+
+@app.route('/contactrama')
+def contact():
+	return render_template("contactrama.html")
+
+
 
 if __name__ == "__main__": 
 	app.run()

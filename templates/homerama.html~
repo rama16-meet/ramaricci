@@ -7,9 +7,9 @@
 <h1 id="heading"> WELCOME TO MY WEBSITE !!:) </h><br><br>
 <img class="img" src="{{url_for('static',filename='Ricci.jpg')}}" width="500px" height="550px">
 <ul>
-<li><a href="{{url_for('rama')}}">About Me</a></li>
-<li><a href="{{url_for('rama1')}}">Contact Me</a></li>
-<li><a href="{{url_for('rama3')}}">Home</a></li>
+<li><a href="{{url_for('aboutrama')}}">About Me</a></li>
+<li><a href="{{url_for('contactrama')}}">Contact Me</a></li>
+<li><a href="{{url_for('homerama')}}">Home</a></li>
 </ul>
 </body>
 </html>
